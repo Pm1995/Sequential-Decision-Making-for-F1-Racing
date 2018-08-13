@@ -29,7 +29,7 @@ Our constraints will be: We have to Pit at least once and have each of the two t
 race.
         𝑋𝑡 𝟙{𝑈𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 0} ≥ 1
         
-![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/plot1.png)
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/plot1.jpg)
 
         
 ## Exogenous Information 
