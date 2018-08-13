@@ -29,6 +29,9 @@ Our constraints will be: We have to Pit at least once and have each of the two t
 race.
         𝑋𝑡 𝟙{𝑈𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 0} ≥ 1
         
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/image.png)
+
+        
 ## Exogenous Information 
 𝑇𝑡+1 = 𝑇𝑡 + et+1 for temperature, 𝐷𝑡+1 = 𝐷𝑡+1 + et+1 for tire quality
 For tire quality: et+1= U(c, d), For temperature: et+1=N(a, b)
