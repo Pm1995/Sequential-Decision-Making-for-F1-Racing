@@ -46,6 +46,8 @@ The total time taken in all the laps which will be modelled as an indicator of t
 ## Objective Function 
 𝑀𝑎𝑥 𝜋∈Π=𝐸[Σ( 𝑐𝑡,(𝑠𝑡,𝜋𝑡(𝑠𝑡)))𝑇𝑡=0]
 
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/fig2.jpg)
+
 ## Methodology 
 The methodology consists of three heuristic policies that we tested using several Matlab simulation functions. The first two polices were devised to determine when to Pit and which tire to change if we Pit and the third policy was devised to improve our time of completion. We ran 20 laps for 10000 runs in our simulation code.
 A. Policy 1
