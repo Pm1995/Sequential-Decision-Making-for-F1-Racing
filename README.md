@@ -17,6 +17,10 @@ The state variables are: Temperature (𝑇𝑡), Tire Quality (𝐷𝑡), Type o
 𝑆𝑡 = (𝑇𝑡, 𝐷𝑡, 𝐶𝑡) :
 𝑤ℎ𝑒𝑟𝑒 𝑇𝑡 ~ 𝑁(𝑎, 𝑏), 𝐷𝑡 ~ 𝑈(𝑐, 𝑑), 𝐶𝑡 = 𝑍𝑡−1
 
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/fig3.jpg)
+
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/fig4.jpg)
+
 ## Decision and Constraints 
 Our decision will be (𝑋𝑡): Whether to pit for tyre change or not (𝑈𝑡), If we pit, the which tyre to
 choose (𝑍𝑡).
