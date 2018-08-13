@@ -29,7 +29,7 @@ Our constraints will be: We have to Pit at least once and have each of the two t
 race.
         𝑋𝑡 𝟙{𝑈𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 1} ≥ 1 𝑋𝑡 𝟙{𝑍𝑡 = 0} ≥ 1
         
-![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/image.png)
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/plot1.png)
 
         
 ## Exogenous Information 
@@ -56,6 +56,8 @@ This policy helps us determine which tire to choose, once we decide to pit. We d
 
 C. Policy 3:
 Policy 3 is unique from policies 1 and 2 because it is used to optimize the time of completion of our race. The idea is that during the race, we make the decision of the choice of tire based on the temperature but in the last few laps, we just have to pull through without thinking about the cost of quality to the tire. So, we decide to switch to soft tire during the last five laps because soft tire has a lower time/lap as compared to the hard tire. With the soft tire in the last few laps, we noticed a completion time of 32.6 minutes as compared to our previous completion time of 33.62 minutes.
+
+![alt-text](https://github.com/Pm1995/Sequential-Decision-Making-for-F1-Racing/blob/master/image.png)
 
 ## Conclusion and Recommendation ##
 In conclusion, the policy 1 and 2 combined gave a completion time of 33.62 minutes whereas policy 3 in sync with policy 1 and 2 resulted in a completion time of 32.6 minutes. In our optimal policy, we start with a soft tire and continue with up to lap 4 and then switch to hard tire. In the final 5 laps, we switch back again to soft tire. The two graphs are shown with each having a run of 10000 iterations and clearly the policy 3 wins the game. Recommendation to the game is not be concerned about the damage to the quality of tire in the final number of laps if the benefit is to switch to a lighter tire and get a better completion time. The tire might be damaged more but the objective is to win the race.
